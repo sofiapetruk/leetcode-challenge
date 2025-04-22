@@ -2,7 +2,6 @@ import requests
 import re
 from html2text import html2text
 import os
-import slugify
 
 def save_full_structure(problem_data):
     if not problem_data:
