@@ -52,8 +52,8 @@ Each problem is organized in its own directory, containing:
 To cater to a broader audience, we provide documentation in both English and Portuguese. The structure for each problem is as follows:
 
 ```
-├── Problems
-│   └── Solutions
+├── problems
+│   └── solutions
 │       ├── 001-two-sum
 │       │   ├── en/
 │       │   │   ├── description.md

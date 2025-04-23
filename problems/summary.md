@@ -2,4 +2,4 @@
 
 This summary includes the challenges from LeetCode that we have already solved, **organized by ID**. Each problem offers an opportunity to practice and improve our algorithmic skills, from basic concepts to advanced topics.
 
-1. [Two Sum](Problems\Solutions\1-two-sum\solution.py)
+1. [Two Sum](problems\solutions\1-two-sum\solution.py)
