@@ -85,11 +85,11 @@ We utilize the [LeetCode-Stats-Card](https://github.com/JacobLinCool/LeetCode-St
 
 [@caio-andres](https://github.com/caio-andres)
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/audibert?theme=dark&font=Baloo%202)
+![LeetCode Stats](https://leetcard.jacoblin.cool/caio-andres?theme=dark&font=Baloo%202)
 
 [@enzowxl](https://github.com/enzowxl)
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/audibert?theme=dark&font=Baloo%202)
+![LeetCode Stats](https://leetcard.jacoblin.cool/enzowxl?theme=dark&font=Baloo%202)
 
 ## Current Progress
 
