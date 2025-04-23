@@ -21,7 +21,7 @@
 
 ## About LeetCode
 
-LeetCode is a premier platform for practicing coding problems and preparing for technical interviews. It offers a vast collection of problems that help developers enhance their algorithmic skills.
+[LeetCode](https://leetcode.com) is a premier platform for practicing coding problems and preparing for technical interviews. It offers a vast collection of problems that help developers enhance their algorithmic skills.
 
 ## Project Overview
 
