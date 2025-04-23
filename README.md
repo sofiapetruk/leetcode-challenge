@@ -31,13 +31,13 @@ This repository is a collaborative effort by [@matheusaudibert](https://github.c
 
 Here you will find the summary of all the problems we have solved. Each problem is documented with its description, solution, and explanation.
 
-To view the full summary of all exercises, simply access the [`summary.md`](Problems/summary.md).
+To view the full summary of all exercises, simply access the [`summary.md`](problems/summary.md).
 
 If you wish to filter problems by difficulty, you can check the following files:
 
-- **Easy Problems**: [`easy.md`](Problems/easy.md)
-- **Medium Problems**: [`medium.md`](Problems/medium.md)
-- **Hard Problems**: [`hard.md`](Problems/hard.md)
+- **Easy Problems**: [`easy.md`](problems/easy.md)
+- **Medium Problems**: [`medium.md`](problems/medium.md)
+- **Hard Problems**: [`hard.md`](problems/hard.md)
 
 ## Repository Structure
 
@@ -103,7 +103,7 @@ We are committed to maintaining this streak and continuously expanding our repos
 
 LeetCode offers a variety of **badges** to recognize achievements and milestones throughout your problem-solving journey. These badges appear on user profiles and represent accomplishments like solving problems across different difficulties, maintaining daily streaks, and more.
 
-To see the full list of available badges and learn how to earn each one, check out: [`badges.md`](Badges/badges.md)
+To see the full list of available badges and learn how to earn each one, check out: [`badges.md`](badges/badges.md)
 
 ## Contributions
 
