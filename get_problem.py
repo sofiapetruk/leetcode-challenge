@@ -7,33 +7,35 @@ def save_full_structure(problem_data):
     if not problem_data:
         return False
 
-    title = problem_data.get("title", "Unknown Problem")
-    difficulty = problem_data.get("difficulty", "Unknown")
-    question_id = problem_data.get("questionId", "000")
-    slug = problem_data.get("titleSlug")
-    content_md = process_html_content(problem_data.get("content", ""))
-    
-    folder_name = f"{question_id}-{slug}"
-    base_path = os.path.join("Problems", "Solutions", folder_name)
+title = problem_data.get("title", "Unknown Problem")
+difficulty = problem_data.get("difficulty", "Unknown")
+question_id = problem_data.get("questionId", "000")
+slug = problem_data.get("titleSlug")
+content_md = process_html_content(problem_data.get("content", ""))
+
+# Formata o ID com 4 dígitos (ex: 0001, 0293)
+folder_name = f"{str(question_id).zfill(4)}-{slug}"
+base_path = os.path.join("problems", "solutions", folder_name)
+
 
     try:
         # Criar dirs
-        os.makedirs(os.path.join(base_path, "English"), exist_ok=True)
-        os.makedirs(os.path.join(base_path, "Portugues"), exist_ok=True)
+        os.makedirs(os.path.join(base_path, "en"), exist_ok=True)
+        os.makedirs(os.path.join(base_path, "pt"), exist_ok=True)
 
         # en
-        with open(os.path.join(base_path, "English", "description.md"), "w", encoding="utf-8") as f:
+        with open(os.path.join(base_path, "en", "description.md"), "w", encoding="utf-8") as f:
             f.write(f"# {question_id}. {title} ({difficulty})\n\n")
             f.write(content_md + "\n")
 
-        with open(os.path.join(base_path, "English", "explanation.md"), "w", encoding="utf-8") as f:
+        with open(os.path.join(base_path, "en", "explanation.md"), "w", encoding="utf-8") as f:
             f.write("")
 
         # pt
-        with open(os.path.join(base_path, "Portugues", "descricao.md"), "w", encoding="utf-8") as f:
+        with open(os.path.join(base_path, "pt", "descricao.md"), "w", encoding="utf-8") as f:
             f.write("")
 
-        with open(os.path.join(base_path, "Portugues", "explicacao.md"), "w", encoding="utf-8") as f:
+        with open(os.path.join(base_path, "pt", "explicacao.md"), "w", encoding="utf-8") as f:
             f.write("")
 
         # Solução em Python

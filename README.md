@@ -46,6 +46,7 @@ Each problem is organized in its own directory, containing:
 - **description.md**: The problem statement.
 - **explanation.md**: A detailed explanation of the approach and logic used.
 - **solution.py**: The implemented solution in Python.
+- **solution.xx**: The implemented solution in any other language.
 
 ## Multilingual Support
 
@@ -61,7 +62,8 @@ To cater to a broader audience, we provide documentation in both English and Por
 │       │   ├── pt/
 │       │   │   ├── descricao.md
 │       │   │   └── explicacao.md
-│       │   └── solution.py
+│       │   ├── solution.py
+│       │   └── solution.xx
 │       │
 │       └── 002-add-two-numbers
 │           ├── en/
@@ -70,7 +72,8 @@ To cater to a broader audience, we provide documentation in both English and Por
 │           ├── pt/
 │           │   ├── descricao.md
 │           │   └── explicacao.md
-│           └── solution.py
+│           ├── solution.py
+│           └── solution.xx
 ```
 
 This format ensures consistency and makes it easy to navigate through the problems we've tackled in both languages.
@@ -93,9 +96,9 @@ We utilize the [LeetCode-Stats-Card](https://github.com/JacobLinCool/LeetCode-St
 
 ## Current Progress
 
-- **Total Problems Solved**: 1
-- **Consecutive Days of Solving**: 1
-- **Last Problem made**: [1-two-sum](Problems\Solutions\1-two-sum\English\description.md)
+- **Total Problems Solved**: 3
+- **Consecutive Days of Solving**: 3
+- **Last Problem made**: [148-sorted-list](Problems\Solutions\148-sorted-list\english\description.md)
 
 We are committed to maintaining this streak and continuously expanding our repository with new challenges and solutions.
 
@@ -113,4 +116,6 @@ Contributions are welcome! If you'd like to add solutions in another langagues, 
 
 For any questions or suggestions, please reach out to us by accessing our discord: [Servidor do Programadores](https://discord.gg/t86nFuCrbj).
 
-To show support give this repo a ⭐ star! It means a lot, thank you :)
+Or feel free to connect with us on **LinkedIn**: [Matheus Audibert](hhttps://www.linkedin.com/in/matheusaudibert), [Caio André](hhttps://www.linkedin.com/in/caio-porto-oliveira), [Enzo Almedida](https://www.linkedin.com/in/enzodev/).
+
+_To show support give this repo a ⭐ star! It means a lot, thank you :)_
