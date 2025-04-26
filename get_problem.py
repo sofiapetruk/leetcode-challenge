@@ -7,15 +7,15 @@ def save_full_structure(problem_data):
     if not problem_data:
         return False
 
-title = problem_data.get("title", "Unknown Problem")
-difficulty = problem_data.get("difficulty", "Unknown")
-question_id = problem_data.get("questionId", "000")
-slug = problem_data.get("titleSlug")
-content_md = process_html_content(problem_data.get("content", ""))
+    title = problem_data.get("title", "Unknown Problem")
+    difficulty = problem_data.get("difficulty", "Unknown")
+    question_id = problem_data.get("questionId", "000")
+    slug = problem_data.get("titleSlug")
+    content_md = process_html_content(problem_data.get("content", ""))
 
-# Formata o ID com 4 dígitos (ex: 0001, 0293)
-folder_name = f"{str(question_id).zfill(4)}-{slug}"
-base_path = os.path.join("problems", "solutions", folder_name)
+    # Formata o ID com 4 dígitos (ex: 0001, 0293)
+    folder_name = f"{str(question_id).zfill(4)}-{slug}"
+    base_path = os.path.join("problems", "solutions", folder_name)
 
 
     try:
