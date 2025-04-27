@@ -27,6 +27,82 @@
 
 This repository is a collaborative effort by [@matheusaudibert](https://github.com/matheusaudibert), [@caio-andres](https://github.com/caio-andres), and [@enzowxl](https://github.com/enzowxl). Our mission is to solve one LeetCode problem each day, documenting our solutions and explanations to foster learning and growth.
 
+## Getting Started
+
+To contribute to or use this repository, you'll need to set up your environment first. The project uses Python to fetch and process LeetCode problems.
+
+### Prerequisites
+
+- Python 3.6 or higher
+- pip (Python package installer)
+
+### Installation
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/caio-andres/leetcode-challenge.git
+   cd leetcode-challenge
+   ```
+
+2. Create a virtual environment (optional but recommended)
+
+   ```bash
+   python -m venv .venv
+
+   # On Windows
+   .venv\Scripts\activate
+
+   # On macOS/Linux
+   source .venv/bin/activate
+   ```
+
+3. Install the required dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Using the Problem Generator Script
+
+The repository includes a script to automatically fetch problems from LeetCode and create the directory structure:
+
+1. Run the script
+
+   ```bash
+   python get_generator.py
+   ```
+
+2. Enter the LeetCode problem ID when prompted
+
+   ```
+   Digite o ID do problema: 1
+   ```
+
+3. The script will:
+   - Fetch the problem details from LeetCode
+   - Create the necessary directory structure
+   - Generate description files in both English and Portuguese
+   - Create a template solution file in Python
+
+### Directory Structure
+
+After running the script, a new problem directory will be created following the repository structure pattern:
+
+```
+problems/
+└── solutions/
+    └── 0001-two-sum/
+        ├── en/
+        │   ├── description.md
+        │   └── explanation.md
+        ├── pt/
+        │   ├── descricao.md
+        │   └── explicacao.md
+        └── solution.py
+```
+
+Now you're ready to solve LeetCode problems and contribute to the project!
+
 ## Summary
 
 Here you will find the summary of all the problems we have solved. Each problem is documented with its description, solution, and explanation.
