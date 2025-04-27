@@ -2,6 +2,9 @@ import requests
 import re
 from html2text import html2text
 import os
+from googletrans import Translator
+
+translator = Translator()
 
 def save_full_structure(problem_data):
     if not problem_data:
@@ -13,10 +16,12 @@ def save_full_structure(problem_data):
     slug = problem_data.get("titleSlug")
     content_md = process_html_content(problem_data.get("content", ""))
 
+    # Traduzir o conteúdo para PT
+    content_md_pt = translate_text(content_md)
+
     # Formata o ID com 4 dígitos (ex: 0001, 0293)
     folder_name = f"{str(question_id).zfill(4)}-{slug}"
     base_path = os.path.join("problems", "solutions", folder_name)
-
 
     try:
         # Criar dirs
@@ -33,7 +38,8 @@ def save_full_structure(problem_data):
 
         # pt
         with open(os.path.join(base_path, "pt", "descricao.md"), "w", encoding="utf-8") as f:
-            f.write("")
+            f.write(f"# {question_id}. {title} ({translate_difficulty(difficulty)})\n\n")
+            f.write(content_md_pt + "\n")
 
         with open(os.path.join(base_path, "pt", "explicacao.md"), "w", encoding="utf-8") as f:
             f.write("")
@@ -54,6 +60,22 @@ def save_full_structure(problem_data):
     except Exception as e:
         print(f"Erro ao salvar estrutura de diretórios: {e}")
         return False
+
+def translate_text(text):
+    try:
+        translated = translator.translate(text, src='en', dest='pt')
+        return translated.text
+    except Exception as e:
+        print(f"Erro ao traduzir texto: {e}")
+        return text
+
+def translate_difficulty(difficulty):
+    mapping = {
+        "Easy": "Fácil",
+        "Medium": "Médio",
+        "Hard": "Difícil"
+    }
+    return mapping.get(difficulty, difficulty)
 
 def get_slug_by_id(problem_id):
     url = "https://leetcode.com/api/problems/all/"
