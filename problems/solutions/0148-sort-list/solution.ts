@@ -1,3 +1,12 @@
+class ListNode {
+  val: number
+  next: ListNode | null
+  constructor(val?: number, next?: ListNode | null) {
+      this.val = (val===undefined ? 0 : val)
+      this.next = (next===undefined ? null : next)
+  }
+}
+
 function sortList(head: ListNode | null): ListNode | null {
   // Base case: if the list is empty or has only one node, it's already sorted
   if (!head || !head.next) return head;
