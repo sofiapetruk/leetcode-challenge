@@ -19,9 +19,3 @@ So, the algorithm starts with the first two values (0 and 1) and keeps updating 
 
 - It's efficient: avoids recursive calls and repeated calculations.
 - Works well for small and medium values of `n`, especially within the constraint `0 <= n <= 30`.
-
----
-
-#### Developer
-
-- [Vítor](https://github.com/euvitorti)
