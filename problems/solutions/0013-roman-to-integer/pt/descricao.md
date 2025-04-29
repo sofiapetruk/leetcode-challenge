@@ -3,7 +3,7 @@
 Os números romanos são representados por sete símbolos diferentes: `I`, `V`, `X`, `L`,  
 `C`, `D` e `M`.
 
-    **Símbolo**       **Valor**
+    Símbolo       Valor
     I             1
     V             5
     X             10
