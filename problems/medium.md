@@ -2,5 +2,5 @@
 
 This summary contains all the Medium-level challenges from LeetCode that we have already solved
 
-1. [Add Two Numbers](solutions/0002-add-two-numbers/solution.py)
-2. [Sort List](solutions/0148-sort-list/solution.py)
+2 [Add Two Numbers](solutions/0002-add-two-numbers/solution.py)
+148 [Sort List](solutions/0148-sort-list/solution.py)

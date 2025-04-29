@@ -1,15 +1,46 @@
-# Explicação da validação de colchetes balanceados
+# 20. Valid Parentheses - Explicação da Solução
 
-E aí! Este código está verificando se uma string tem colchetes corretamente balanceados. Sabe quando você está programando e precisa garantir que todos os parênteses, chaves e colchetes estejam abertos e fechados na ordem certa?
+## Abordagem: Utilizando Pilha (Stack)
 
-Veja o que está acontecendo:
+Esta solução utiliza uma estrutura de dados de pilha para verificar se uma string contendo apenas parênteses, colchetes e chaves está válida, ou seja, se cada caractere de abertura tem seu correspondente de fechamento na ordem correta.
 
-A função `isValid` recebe uma string como entrada e nos diz se os colchetes nela são válidos (retorna `true`) ou não (retorna `false`).
+## Lógica do Algoritmo:
 
-Usamos uma pilha (basicamente uma lista onde só adicionamos/removemos de uma extremidade) para acompanhar os colchetes de abertura que encontramos. Cada vez que vemos um colchete de abertura - `(`, `{`, ou `[` - nós o colocamos na nossa pilha.
+1. Criamos uma pilha vazia para armazenar os caracteres de abertura.
+2. Definimos um mapa que associa cada caractere de fechamento ao seu correspondente de abertura.
+3. Percorremos cada caractere da string:
+   - Se for um caractere de abertura ('(', '{', '['), o empilhamos.
+   - Se for um caractere de fechamento (')', '}', ']'):
+     - Verificamos se a pilha está vazia (não há caracteres de abertura pendentes).
+     - Desempilhamos o último caractere de abertura e verificamos se corresponde ao atual caractere de fechamento.
+     - Se alguma dessas verificações falhar, a string não é válida.
+4. Ao final, a string só é válida se a pilha estiver vazia (todos os caracteres de abertura foram fechados).
 
-Quando encontramos um colchete de fechamento - `)`, `}`, ou `]` - verificamos se ele corresponde ao colchete de abertura mais recente na nossa pilha. Se corresponder, ótimo! Removemos aquele colchete de abertura da pilha e continuamos. Se não corresponder, ou se a pilha estiver vazia (significando que encontramos um colchete de fechamento sem um de abertura correspondente), retornamos `false` imediatamente.
+## Exemplo Passo a Passo:
 
-Depois de percorrer toda a string, fazemos uma verificação final: se a pilha estiver vazia, significa que todos os colchetes de abertura foram fechados corretamente, então retornamos `true`. Se ainda houver algo na pilha, significa que alguns colchetes de abertura nunca foram fechados, então retornamos `false`.
+Usando o exemplo: `s = "({[]})"`.
 
-É como garantir que todas as portas que você abriu sejam fechadas corretamente antes de sair de casa!
+1. Inicialização:
+
+   - `stack = []`
+   - `bracketMap = { ")": "(", "}": "{", "]": "[" }`
+
+2. Iteração:
+
+   - `char = '('`: É um caractere de abertura, empilhamos. `stack = ['(']`
+   - `char = '{'`: É um caractere de abertura, empilhamos. `stack = ['(', '{']`
+   - `char = '['`: É um caractere de abertura, empilhamos. `stack = ['(', '{', '[']`
+   - `char = ']'`: É um caractere de fechamento:
+     - Desempilhamos o último caractere: `'['`
+     - Verificamos se `bracketMap[']'] === '['` (verdadeiro)
+     - `stack = ['(', '{']`
+   - `char = '}'`: É um caractere de fechamento:
+     - Desempilhamos o último caractere: `'{'`
+     - Verificamos se `bracketMap['}'] === '{'` (verdadeiro)
+     - `stack = ['(']`
+   - `char = ')'`: É um caractere de fechamento:
+     - Desempilhamos o último caractere: `'('`
+     - Verificamos se `bracketMap[')'] === '('` (verdadeiro)
+     - `stack = []`
+
+3. Ao final, verificamos se `stack.length === 0` (verdadeiro), então a string é válida.
