@@ -64,16 +64,6 @@ Para atender a um público mais amplo, fornecemos documentação em inglês e po
 │       │   │   └── explicacao.md
 │       │   ├── solution.py
 │       │   └── solution.xx
-│       │
-│       └── 002-add-two-numbers
-│           ├── en/
-│           │   ├── description.md
-│           │   └── explanation.md
-│           ├── pt/
-│           │   ├── descricao.md
-│           │   └── explicacao.md
-│           ├── solution.py
-│           └── solution.xx
 ```
 
 Este formato garante consistência e facilita a navegação pelos problemas que abordamos em ambos os idiomas.
@@ -96,9 +86,9 @@ Nós utilizamos o [LeetCode-Stats-Card](https://github.com/JacobLinCool/LeetCode
 
 ## Progresso Atual
 
-- **Total de Problemas Resolvidos:** 3
-- **Dias Consecutivos Resolvendo:** 3
-- **Último Problema Feito:** [148-sorted-list](Problems\Solutions\148-sorted-list\Portuguese\descricao.md)
+- **Total de Problemas Resolvidos:** 8
+- **Dias Consecutivos Resolvendo:** 6
+- **Último Problema Feito:** [Roman to Integer](problems\solutions\0013-roman-to-integer\pt\descricao.md)
 
 Estamos comprometidos em manter essa sequência e expandir continuamente nosso repositório com novos desafios e soluções.
 
@@ -112,10 +102,14 @@ Para ver a lista completa de emblemas disponíveis e aprender como ganhar cada u
 
 Contribuições são bem-vindas! Se você gostaria de adicionar soluções em outras linguagens, melhorar as existentes ou fornecer explicações, sinta-se à vontade para fazer um fork do repositório e enviar um pull request.
 
+## Contribuidores
+
+[Vítor Santos](https://github.com/euvitorti)
+
 ## Contato
 
 Para quaisquer perguntas ou sugestões, entre em contato conosco acessando nosso discord: [Servidor do Programadores](https://discord.gg/t86nFuCrbj).
 
-Ou conecte-se conosco no **Linkedin**: [Matheus Audibert](hhttps://www.linkedin.com/in/matheusaudibert), [Caio André](https://www.linkedin.com/in/caio-porto-oliveira), [Enzo Almedida](https://www.linkedin.com/in/enzodev/).
+Ou conecte-se conosco no **Linkedin**: [Matheus Audibert](https://www.linkedin.com/in/matheusaudibert), [Caio André](https://www.linkedin.com/in/caio-porto-oliveira), [Enzo Almedida](https://www.linkedin.com/in/enzodev/).
 
 _Para mostrar apoio, dê uma ⭐ estrela a este repositório! Significa muito, obrigado :)_
