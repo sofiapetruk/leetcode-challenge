@@ -65,12 +65,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. Install the node_modules
-
-```bash
-npm install
-```
-
 ### Using the Problem Generator Script
 
 The repository includes a script to automatically fetch problems from LeetCode and create the directory structure:
