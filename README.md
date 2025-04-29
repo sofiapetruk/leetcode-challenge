@@ -49,21 +49,21 @@ To contribute to or use this repository, you'll need to set up your environment 
 
 2. Create a virtual environment (optional but recommended)
 
-```bash
-python -m venv .venv
+   ```bash
+    python -m venv .venv
 
-# On Windows
-.venv\Scripts\activate
+    # On Windows
+    .venv\Scripts\activate
 
-# On macOS/Linux
-source .venv/bin/activate
-```
+    # On macOS/Linux
+    source .venv/bin/activate
+   ```
 
 3. Install the required dependencies
 
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ### Using the Problem Generator Script
 
