@@ -1,26 +1,40 @@
-## 🧠 Lógica da Solução - Fibonacci
+# 509. Fibonacci Number - Explicação da Solução
 
-Essa solução resolve o problema do número de Fibonacci de forma **iterativa**, ou seja, usando um laço de repetição ao invés de recursão.
+## Abordagem: Recursão Simples
 
-### 💡 Ideia principal:
+Esta solução implementa o cálculo do número de Fibonacci usando uma abordagem recursiva direta, que segue a definição matemática da sequência de Fibonacci.
 
-A lógica se baseia na própria definição da sequência de Fibonacci:  
-**cada número é a soma dos dois anteriores**. Então, o algoritmo começa com os dois primeiros valores da sequência (0 e 1) e vai atualizando os próximos valores até chegar no número desejado.
+## Lógica do Algoritmo:
 
-### 🔄 Como funciona:
+1. **Casos Base**:
+   - Se n = 0, retornamos 0
+   - Se n = 1, retornamos 1
+2. **Caso Recursivo**:
+   - Para n > 1, calculamos o número de Fibonacci somando os dois números de Fibonacci anteriores:
+   - F(n) = F(n-1) + F(n-2)
 
-- Começamos com os dois primeiros números da sequência: `0` e `1`.
-- A cada repetição, somamos os dois últimos números para obter o próximo.
-- Depois atualizamos esses dois valores: o mais recente vira o anterior, e o novo resultado vira o atual.
-- Esse processo se repete até chegar na posição `n`.
+## Exemplo Passo a Passo:
 
-### ✅ Vantagens:
+Para calcular fib(4):
 
-- É eficiente: evita chamadas recursivas e cálculos repetidos.
-- Funciona bem para valores de `n` pequenos e médios, especialmente dentro do limite de `0 <= n <= 30`.
+1. Chamamos `fib(4)`
+   - Não é caso base, então calculamos `fib(3) + fib(2)`
+2. Calculamos `fib(3)`
+   - Não é caso base, então calculamos `fib(2) + fib(1)`
+3. Calculamos `fib(2)`
+   - Não é caso base, então calculamos `fib(1) + fib(0)`
+   - `fib(1)` = 1 (caso base)
+   - `fib(0)` = 0 (caso base)
+   - Então `fib(2)` = 1 + 0 = 1
+4. Voltando para `fib(3)`
+   - `fib(2)` = 1 (já calculado)
+   - `fib(1)` = 1 (caso base)
+   - Então `fib(3)` = 1 + 1 = 2
+5. Voltando para `fib(4)`
 
----
+   - `fib(3)` = 2 (já calculado)
+   - Precisamos calcular `fib(2)` novamente
+   - `fib(2)` = 1 (já sabemos)
+   - Então `fib(4)` = 2 + 1 = 3
 
-#### Solucionador
-
-- [Vítor](https://github.com/euvitorti)
+6. Resultado final: `fib(4)` = 3

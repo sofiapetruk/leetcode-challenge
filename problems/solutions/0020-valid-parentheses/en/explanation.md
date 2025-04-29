@@ -1,15 +1,46 @@
-# Validating Balanced Brackets Explained
+# 20. Valid Parentheses - Solution Explanation
 
-Hey there! So this code is checking if a string has properly balanced brackets. You know, like when you're coding and need to make sure all your parentheses, curly braces, and square brackets are properly opened and closed in the right order.
+## Approach: Using Stack Data Structure
 
-Here's what's happening:
+This solution uses a stack data structure to verify if a string containing only parentheses, brackets, and braces is valid, meaning each opening character has its corresponding closing character in the correct order.
 
-The function `isValid` takes a string as input and tells us whether the brackets in it are valid (returns `true`) or not (returns `false`).
+## Algorithm Logic:
 
-We use a stack (basically a list where we only add/remove from one end) to keep track of the opening brackets we've seen. Every time we see an opening bracket - `(`, `{`, or `[` - we push it onto our stack.
+1. We create an empty stack to store the opening characters.
+2. We define a map that associates each closing character with its corresponding opening character.
+3. We iterate through each character in the string:
+   - If it's an opening character ('(', '{', '['), we push it onto the stack.
+   - If it's a closing character (')', '}', ']'):
+     - We check if the stack is empty (no pending opening characters).
+     - We pop the last opening character and check if it corresponds to the current closing character.
+     - If either of these checks fails, the string is not valid.
+4. At the end, the string is only valid if the stack is empty (all opening characters have been closed).
 
-When we come across a closing bracket - `)`, `}`, or `]` - we check if it matches the most recent opening bracket in our stack. If it does, great! We pop that opening bracket off the stack and continue. If not, or if the stack is empty (meaning we found a closing bracket without a matching opening one), we return `false` right away.
+## Step-by-Step Example:
 
-After going through the entire string, we do one final check: if the stack is empty, it means all opening brackets were properly closed, so we return `true`. If there's anything left in the stack, it means some opening brackets never got closed, so we return `false`.
+Using the example: `s = "({[]})"`.
 
-It's like making sure all your doors that you opened get closed properly before you leave the house!
+1. Initialization:
+
+   - `stack = []`
+   - `bracketMap = { ")": "(", "}": "{", "]": "[" }`
+
+2. Iteration:
+
+   - `char = '('`: It's an opening character, push to stack. `stack = ['(']`
+   - `char = '{'`: It's an opening character, push to stack. `stack = ['(', '{']`
+   - `char = '['`: It's an opening character, push to stack. `stack = ['(', '{', '[']`
+   - `char = ']'`: It's a closing character:
+     - Pop the last character: `'['`
+     - Check if `bracketMap[']'] === '['` (true)
+     - `stack = ['(', '{']`
+   - `char = '}'`: It's a closing character:
+     - Pop the last character: `'{'`
+     - Check if `bracketMap['}'] === '{'` (true)
+     - `stack = ['(']`
+   - `char = ')'`: It's a closing character:
+     - Pop the last character: `'('`
+     - Check if `bracketMap[')'] === '('` (true)
+     - `stack = []`
+
+3. At the end, we check if `stack.length === 0` (true), so the string is valid.

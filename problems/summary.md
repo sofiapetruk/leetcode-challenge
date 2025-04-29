@@ -2,4 +2,11 @@
 
 This summary includes the challenges from LeetCode that we have already solved, **organized by ID**. Each problem offers an opportunity to practice and improve our algorithmic skills, from basic concepts to advanced topics.
 
-1. [Two Sum](problems\solutions\1-two-sum\solution.py)
+- **1** - [Two Sum](solutions/0001-two-sum/solution.py)
+- **2** - [Add Two Numbers](solutions/0002-add-two-numbers/solution.py)
+- **13** - [Roman to Integer (Easy)](solutions/0013-roman-to-integer/solution.py)
+- **20** - [Valid Parentheses](solutions/0020-valid-parentheses/solution.ts)
+- **35** - [Search Insert Position](solutions/0035-search-insert-position/solution.ts)
+- **148** - [Sort List](solutions/0148-sort-list/solution.py)
+- **345** - [Reverse Vowels of a String](solutions/0345-reverse-vowels-of-a-string/solution.py)
+- **509** - [Fibonacci Number](solutions/0509-fibonacci-number/solution.py)

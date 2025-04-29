@@ -1,4 +1,4 @@
-# LeetCode Badges 🏆
+# LeetCode Badges
 
 This section will showcase all the badges earned on LeetCode. Each badge represents a milestone in the journey of problem-solving and mastering algorithms. You can track progress and achievements in various categories such as difficulty levels, problem-solving consistency, and community contributions.
 

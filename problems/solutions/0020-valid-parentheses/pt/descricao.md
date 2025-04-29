@@ -1,6 +1,6 @@
-# 20. Valid Parentheses (Fácil)
+# 20. Valid Parentheses
 
-Dada uma string `s` contendo apenas os personagens` '(' `,` ')' `,` '{' `,` '}' `,
+Dada uma string `s` contendo apenas os personagens`'('`,`')'`,`'{'`,`'}'`,
 `'['` e `']'`, determine se a sequência de entrada é válida.
 
 Uma sequência de entrada é válida se:
@@ -35,5 +35,5 @@ Saída: true
 
 ## restrições
 
-* `1 <= S.Length <= 104`
-* `s` consiste em apenas parênteses` '() [] {}' `.
+- `1 <= S.Length <= 104`
+- `s` consiste em apenas parênteses`'() [] {}'`.
