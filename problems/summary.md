@@ -8,5 +8,6 @@ This summary includes the challenges from LeetCode that we have already solved, 
 - **20** - [Valid Parentheses](solutions/0020-valid-parentheses/solution.ts)
 - **35** - [Search Insert Position](solutions/0035-search-insert-position/solution.ts)
 - **148** - [Sort List](solutions/0148-sort-list/solution.py)
+- **191** - [Number of 1 Bits](solutions/0191-number-of-1-bits/solution.ts)
 - **345** - [Reverse Vowels of a String](solutions/0345-reverse-vowels-of-a-string/solution.py)
 - **509** - [Fibonacci Number](solutions/0509-fibonacci-number/solution.py)
