@@ -1,3 +1,5 @@
+##### Este é o Readme do projeto _em inglês_, caso prefira acompanhar o Readme em Português-BR, [clique aqui](READMEptbr.md)
+
 # LeetCode Challenge
 
 <p align="center">
@@ -47,20 +49,27 @@ To contribute to or use this repository, you'll need to set up your environment 
 
 2. Create a virtual environment (optional but recommended)
 
-   ```bash
-   python -m venv .venv
+```bash
+python -m venv .venv
 
-   # On Windows
-   .venv\Scripts\activate
+# On Windows
+.venv\Scripts\activate
 
-   # On macOS/Linux
-   source .venv/bin/activate
-   ```
+# On macOS/Linux
+source .venv/bin/activate
+```
 
 3. Install the required dependencies
-   ```bash
-   pip install -r requirements.txt
-   ```
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Install the node_modules
+
+```bash
+npm install
+```
 
 ### Using the Problem Generator Script
 
@@ -68,9 +77,9 @@ The repository includes a script to automatically fetch problems from LeetCode a
 
 1. Run the script
 
-   ```bash
-   python get_problem.py
-   ```
+```bash
+python get_problem.py
+```
 
 2. Enter the LeetCode problem ID when prompted
 
@@ -189,3 +198,5 @@ For any questions or suggestions, please reach out to us by accessing our discor
 Or feel free to connect with us on **LinkedIn**: [Matheus Audibert](https://www.linkedin.com/in/matheusaudibert), [Caio André](https://www.linkedin.com/in/caio-porto-oliveira), [Enzo Almedida](https://www.linkedin.com/in/enzodev/).
 
 _To show support give this repo a ⭐ star! It means a lot, thank you :)_
+
+##### Este é o Readme do projeto _em inglês_, caso prefira acompanhar o Readme em Português-BR, [clique aqui](READMEptbr.md)
