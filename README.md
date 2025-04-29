@@ -71,9 +71,9 @@ The repository includes a script to automatically fetch problems from LeetCode a
 
 1. Run the script
 
-```bash
-python get_problem.py
-```
+   ```bash
+   python get_problem.py
+   ```
 
 2. Enter the LeetCode problem ID when prompted
 
