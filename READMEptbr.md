@@ -88,7 +88,7 @@ Nós utilizamos o [LeetCode-Stats-Card](https://github.com/JacobLinCool/LeetCode
 
 - **Total de Problemas Resolvidos:** 8
 - **Dias Consecutivos Resolvendo:** 6
-- **Último Problema Feito:** [Roman to Integer](problems\solutions\0013-roman-to-integer\pt\descricao.md)
+- **Último Problema Feito:** [Roman to Integer](problems/solutions/0013-roman-to-integer/pt/descricao.md)
 
 Estamos comprometidos em manter essa sequência e expandir continuamente nosso repositório com novos desafios e soluções.
 
