@@ -27,7 +27,7 @@
 
 ## Project Overview
 
-This repository is a collaborative effort by [@matheusaudibert](https://github.com/matheusaudibert), [@caio-andres](https://github.com/caio-andres), and [@enzowxl](https://github.com/enzowxl). Our mission is to solve one LeetCode problem each day, documenting our solutions and explanations to foster learning and growth.
+This repository is a collaborative effort by [@matheusaudibert](https://github.com/matheusaudibert), [@caio-andres](https://github.com/caio-andres) and [@enzowxl](https://github.com/enzowxl). Our mission is to solve one LeetCode problem each day, documenting our solutions and explanations to foster learning and growth.
 
 ## Getting Started
 
@@ -165,9 +165,9 @@ We utilize the [LeetCode-Stats-Card](https://github.com/JacobLinCool/LeetCode-St
 
 ## Current Progress
 
-- **Total Problems Solved**: 8
-- **Consecutive Days of Solving**: 6
-- **Last Problem made**: [Roman to Integer](problems/solutions/0013-roman-to-integer/en/description.md)
+- **Total Problems Solved**: 15
+- **Consecutive Days of Solving**: 2
+- **Last Problem made**: [9. Polindrome Number](problems/solutions/0009-polindrome-number)
 
 We are committed to maintaining this streak and continuously expanding our repository with new challenges and solutions.
 
@@ -183,6 +183,7 @@ Contributions are welcome! If you'd like to add solutions in another langagues, 
 
 ## Contributors
 
+[Pedro Ancelotti](https://github.com/Ancelotti-Dev)
 [Vítor Santos](https://github.com/euvitorti)
 
 ## Contact
