@@ -27,7 +27,7 @@
 
 ## Project Overview
 
-This repository is a collaborative effort by [@matheusaudibert](https://github.com/matheusaudibert), [@caio-andres](https://github.com/caio-andres), and [@enzowxl](https://github.com/enzowxl). Our mission is to solve one LeetCode problem each day, documenting our solutions and explanations to foster learning and growth.
+This repository is a collaborative effort by [@matheusaudibert](https://github.com/matheusaudibert), [@caio-andres](https://github.com/caio-andres), [@enzowxl](https://github.com/enzowxl) and [@ancelotti](https://github.com/Ancelotti-Dev). Our mission is to solve one LeetCode problem each day, documenting our solutions and explanations to foster learning and growth.
 
 ## Getting Started
 
@@ -163,11 +163,16 @@ We utilize the [LeetCode-Stats-Card](https://github.com/JacobLinCool/LeetCode-St
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/enzowxl?theme=dark&font=Baloo%202)
 
+[@pedro-ancelotti](https://github.com/Ancelotti-Dev)
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/ancelotti?theme=dark&font=Baloo%202)
+
+
 ## Current Progress
 
-- **Total Problems Solved**: 8
-- **Consecutive Days of Solving**: 6
-- **Last Problem made**: [Roman to Integer](problems/solutions/0013-roman-to-integer/en/description.md)
+- **Total Problems Solved**: 15
+- **Consecutive Days of Solving**: 2
+- **Last Problem made**: [9. Polindrome Number](problems/solutions/0009-polindrome-number)
 
 We are committed to maintaining this streak and continuously expanding our repository with new challenges and solutions.
 
@@ -189,7 +194,7 @@ Contributions are welcome! If you'd like to add solutions in another langagues, 
 
 For any questions or suggestions, please reach out to us by accessing our discord: [Servidor do Programadores](https://discord.gg/t86nFuCrbj).
 
-Or feel free to connect with us on **LinkedIn**: [Matheus Audibert](https://www.linkedin.com/in/matheusaudibert), [Caio André](https://www.linkedin.com/in/caio-porto-oliveira), [Enzo Almedida](https://www.linkedin.com/in/enzodev/).
+Or feel free to connect with us on **LinkedIn**: [Matheus Audibert](https://www.linkedin.com/in/matheusaudibert), [Caio André](https://www.linkedin.com/in/caio-porto-oliveira), [Enzo Almedida](https://www.linkedin.com/in/enzodev/), [Pedro Ancelotti](https://www.linkedin.com/in/pedro-henrique-ancelotti9a7134260).
 
 _To show support give this repo a ⭐ star! It means a lot, thank you :)_
 
