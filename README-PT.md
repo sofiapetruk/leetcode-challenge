@@ -25,7 +25,7 @@
 
 ## Visão Geral do Projeto
 
-Este repositório é um esforço colaborativo de [@matheusaudibert](https://github.com/matheusaudibert), [@caio-andres](https://github.com/caio-andres),[@enzowxl](https://github.com/enzowxl) e [@ancelotti](https://github.com/Ancelotti-Dev). Nosso objetivo é resolver um problema do LeetCode por dia, documentando nossas soluções e explicações para promover o aprendizado e crescimento.
+Este repositório é um esforço colaborativo de [@matheusaudibert](https://github.com/matheusaudibert), [@caio-andres](https://github.com/caio-andres) and [@enzowxl](https://github.com/enzowxl). Nosso objetivo é resolver um problema do LeetCode por dia, documentando nossas soluções e explicações para promover o aprendizado e crescimento.
 
 ## Resumo
 
@@ -84,11 +84,6 @@ Nós utilizamos o [LeetCode-Stats-Card](https://github.com/JacobLinCool/LeetCode
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/enzowxl?theme=dark&font=Baloo%202)
 
-[@pedro-ancelotti](https://github.com/Ancelotti-Dev)
-
-![LeetCode Stats](https://leetcard.jacoblin.cool/ancelotti?theme=dark&font=Baloo%202)
-
-
 ## Progresso Atual
 
 - **Total de Problemas Resolvidos:** 15
@@ -109,12 +104,13 @@ Contribuições são bem-vindas! Se você gostaria de adicionar soluções em ou
 
 ## Contribuidores
 
+[Pedro Ancelotti](https://github.com/Ancelotti-Dev)
 [Vítor Santos](https://github.com/euvitorti)
 
 ## Contato
 
 Para quaisquer perguntas ou sugestões, entre em contato conosco acessando nosso discord: [Servidor do Programadores](https://discord.gg/t86nFuCrbj).
 
-Ou conecte-se conosco no **Linkedin**: [Matheus Audibert](https://www.linkedin.com/in/matheusaudibert), [Caio André](https://www.linkedin.com/in/caio-porto-oliveira), [Enzo Almedida](https://www.linkedin.com/in/enzodev/), [Pedro Ancelotti](https://www.linkedin.com/in/pedro-henrique-ancelotti9a7134260).
+Ou conecte-se conosco no **Linkedin**: [Matheus Audibert](https://www.linkedin.com/in/matheusaudibert), [Caio André](https://www.linkedin.com/in/caio-porto-oliveira), and [Enzo Almedida](https://www.linkedin.com/in/enzodev/).
 
 _Para mostrar apoio, dê uma ⭐ estrela a este repositório! Significa muito, obrigado :)_
