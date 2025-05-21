@@ -86,9 +86,11 @@ Nós utilizamos o [LeetCode-Stats-Card](https://github.com/JacobLinCool/LeetCode
 
 ## Progresso Atual
 
-- **Total de Problemas Resolvidos:** 15
-- **Dias Consecutivos Resolvendo:** 2
-- **Último Problema Feito:** [9. Numero Polindromo](problems/solutions/0009-polindrome-number)
+
+- **Total de Problemas Resolvidos:** 16
+- **Dias Consecutivos Resolvendo:** 3
+- **Último Problema Feito:** [21. Combinar Duas Listas Encadeadas Ordenadas](problems/solutions/0021-merge-two-sorted-lists/solution.py)
+
 
 Estamos comprometidos em manter essa sequência e expandir continuamente nosso repositório com novos desafios e soluções.
 

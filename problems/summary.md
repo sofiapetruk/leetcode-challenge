@@ -4,9 +4,12 @@ This summary includes the challenges from LeetCode that we have already solved, 
 
 - **1** - [Two Sum](solutions/0001-two-sum/solution.py)
 - **2** - [Add Two Numbers](solutions/0002-add-two-numbers/solution.py)
+- **3** - [Longest Substring Without Repeating Characters](solutions/0003-longest-substring-without-repeating-characters/solution.ts)
+- **9** - [Polindrome Number](solutions/0009-polindrome-number/solution.py)
 - **13** - [Roman to Integer (Easy)](solutions/0013-roman-to-integer/solution.py)
 - **14** - [Longest Common Prefix](solutions/0014-longest-common-prefix/solution.py)
 - **20** - [Valid Parentheses](solutions/0020-valid-parentheses/solution.ts)
+- **21** - [Merge Two Sorted Lists](solutions/0021-merge-two-sorted-lists/solution.py)
 - **35** - [Search Insert Position](solutions/0035-search-insert-position/solution.ts)
 - **70** - [Climbing Stairs](solutions/0070-climbing-stairs/solution.py)
 - **148** - [Sort List](solutions/0148-sort-list/solution.py)
