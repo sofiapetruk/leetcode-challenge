@@ -27,7 +27,7 @@
 
 ## Project Overview
 
-This repository is a collaborative effort by [@matheusaudibert](https://github.com/matheusaudibert), [@caio-andres](https://github.com/caio-andres), and [@enzowxl](https://github.com/enzowxl). Our mission is to solve one LeetCode problem each day, documenting our solutions and explanations to foster learning and growth.
+This repository is a collaborative effort by [@matheusaudibert](https://github.com/matheusaudibert), [@caio-andres](https://github.com/caio-andres) and [@enzowxl](https://github.com/enzowxl). Our mission is to solve one LeetCode problem each day, documenting our solutions and explanations to foster learning and growth.
 
 ## Getting Started
 
@@ -166,6 +166,7 @@ We utilize the [LeetCode-Stats-Card](https://github.com/JacobLinCool/LeetCode-St
 ## Current Progress
 
 
+
 - **Total Problems Solved**: 16
 - **Consecutive Days of Solving**: 3
 - **Last Problem made**: [21. Merge Two Sorted Lists](problems/solutions/0021-merge-two-sorted-lists/solution.py)
@@ -185,6 +186,7 @@ Contributions are welcome! If you'd like to add solutions in another langagues, 
 
 ## Contributors
 
+[Pedro Ancelotti](https://github.com/Ancelotti-Dev)
 [Vítor Santos](https://github.com/euvitorti)
 
 ## Contact
