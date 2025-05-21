@@ -86,9 +86,10 @@ Nós utilizamos o [LeetCode-Stats-Card](https://github.com/JacobLinCool/LeetCode
 
 ## Progresso Atual
 
-- **Total de Problemas Resolvidos:** 8
-- **Dias Consecutivos Resolvendo:** 6
-- **Último Problema Feito:** [Roman to Integer](problems/solutions/0013-roman-to-integer/pt/descricao.md)
+
+- **Total de Problemas Resolvidos:** 16
+- **Dias Consecutivos Resolvendo:** 3
+- **Último Problema Feito:** [21. Combinar Duas Listas Encadeadas Ordenadas](problems/solutions/0021-merge-two-sorted-lists/solution.py)
 
 Estamos comprometidos em manter essa sequência e expandir continuamente nosso repositório com novos desafios e soluções.
 
