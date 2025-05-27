@@ -14,3 +14,4 @@ This summary contains all the Easy-level challenges from LeetCode that we have a
 - **342** - [Power of Four](solutions/0342-power-of-four/solution.ts)
 - **345** - [Reverse Vowels of a String](solutions/0345-reverse-vowels-of-a-string/solution.py)
 - **509** - [Fibonacci Number](solutions/0509-fibonacci-number/solution.py)
+- **557** - [Reverse Words in a String III](solutions/0557-reverse-words-in-a-string-iii/solution.py)
