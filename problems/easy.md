@@ -15,3 +15,4 @@ This summary contains all the Easy-level challenges from LeetCode that we have a
 - **345** - [Reverse Vowels of a String](solutions/0345-reverse-vowels-of-a-string/solution.py)
 - **509** - [Fibonacci Number](solutions/0509-fibonacci-number/solution.py)
 - **557** - [Reverse Words in a String III](solutions/0557-reverse-words-in-a-string-iii/solution.py)
+- **3090** - [Maximum Length Substring With Two Occurrences](solutions/3090-maximum-length-substring-with-two-occurrences/solution.py)
