@@ -13,6 +13,7 @@ This summary contains all the Easy-level challenges from LeetCode that we have a
 - **191** - [Number of 1 Bits](solutions/0191-number-of-1-bits/solution.ts)
 - **342** - [Power of Four](solutions/0342-power-of-four/solution.ts)
 - **345** - [Reverse Vowels of a String](solutions/0345-reverse-vowels-of-a-string/solution.py)
+- **387** - [First Unique Character in a String](solutions/0387-first-unique-character-in-a-string/solution.py)
 - **509** - [Fibonacci Number](solutions/0509-fibonacci-number/solution.py)
 - **557** - [Reverse Words in a String III](solutions/0557-reverse-words-in-a-string-iii/solution.py)
 - **3090** - [Maximum Length Substring With Two Occurrences](solutions/3090-maximum-length-substring-with-two-occurrences/solution.py)
