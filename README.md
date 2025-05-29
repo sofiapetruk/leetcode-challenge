@@ -1,4 +1,4 @@
-##### Este é o Readme do projeto _em inglês_, caso prefira acompanhar o Readme em Português-BR, [clique aqui](READMEptbr.md)
+##### Este é o Readme do projeto _em inglês_, caso prefira acompanhar o Readme em Português-BR, [clique aqui](README-PT.md)
 
 # LeetCode Challenge
 
@@ -197,4 +197,4 @@ Or feel free to connect with us on **LinkedIn**: [Matheus Audibert](https://www.
 
 _To show support give this repo a ⭐ star! It means a lot, thank you :)_
 
-##### Este é o Readme do projeto _em inglês_, caso prefira acompanhar o Readme em Português-BR, [clique aqui](READMEptbr.md)
+##### Este é o Readme do projeto _em inglês_, caso prefira acompanhar o Readme em Português-BR, [clique aqui](README-PT.md)
