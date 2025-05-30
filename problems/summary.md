@@ -14,6 +14,7 @@ This summary includes the challenges from LeetCode that we have already solved, 
 - **70** - [Climbing Stairs](solutions/0070-climbing-stairs/solution.py)
 - **148** - [Sort List](solutions/0148-sort-list/solution.py)
 - **191** - [Number of 1 Bits](solutions/0191-number-of-1-bits/solution.ts)
+- **206** - [Reverse Linked List](solutions/0206-reverse-linked-list/solution.py)
 - **342** - [Power of Four](solutions/0342-power-of-four/solution.ts)
 - **345** - [Reverse Vowels of a String](solutions/0345-reverse-vowels-of-a-string/solution.py)
 - **387** - [First Unique Character in a String](solutions/0387-first-unique-character-in-a-string/solution.py)
