@@ -12,6 +12,7 @@ This summary includes the challenges from LeetCode that we have already solved, 
 - **21** - [Merge Two Sorted Lists](solutions/0021-merge-two-sorted-lists/solution.py)
 - **35** - [Search Insert Position](solutions/0035-search-insert-position/solution.ts)
 - **70** - [Climbing Stairs](solutions/0070-climbing-stairs/solution.py)
+- **141** - [Linked List Cycle](solutions/0141-linked-list-cycle/solution.py)
 - **148** - [Sort List](solutions/0148-sort-list/solution.py)
 - **191** - [Number of 1 Bits](solutions/0191-number-of-1-bits/solution.ts)
 - **206** - [Reverse Linked List](solutions/0206-reverse-linked-list/solution.py)
