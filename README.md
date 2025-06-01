@@ -167,9 +167,8 @@ We utilize the [LeetCode-Stats-Card](https://github.com/JacobLinCool/LeetCode-St
 
 
 
-- **Total Problems Solved**: 16
-- **Consecutive Days of Solving**: 3
-- **Last Problem made**: [21. Merge Two Sorted Lists](problems/solutions/0021-merge-two-sorted-lists/solution.py)
+- **Total Problems Solved**: 24
+- **Last Problem made**: [112. Path Sum](problems/solutions/0112-path-sum/solution.py)
 
 
 We are committed to maintaining this streak and continuously expanding our repository with new challenges and solutions.
