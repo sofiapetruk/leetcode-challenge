@@ -27,7 +27,7 @@
 
 ## Project Overview
 
-This repository is a collaborative effort by [@matheusaudibert](https://github.com/matheusaudibert), [@caio-andres](https://github.com/caio-andres) and [@enzowxl](https://github.com/enzowxl). Our mission is to solve one LeetCode problem each day, documenting our solutions and explanations to foster learning and growth.
+This repository is a collaborative effort by [@sofia-petruk](https://github.com/sofiapetruk) Mine mission is to solve one LeetCode problem each day, documenting our solutions and explanations to foster learning and growth.
 
 ## Getting Started
 
@@ -43,7 +43,7 @@ To contribute to or use this repository, you'll need to set up your environment 
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/caio-andres/leetcode-challenge.git
+   git clone https://github.com/sofiapetruk/leetcode-challenge.git
    cd leetcode-challenge
    ```
 
@@ -151,23 +151,15 @@ This format ensures consistency and makes it easy to navigate through the proble
 
 We utilize the [LeetCode-Stats-Card](https://github.com/JacobLinCool/LeetCode-Stats-Card) todisplay our current statistics. Here are our individual stats:
 
-[@matheusaudibert](https://github.com/matheusaudibert)
+[@sofiapetruk](https://github.com/sofiapetruk)
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/audibert?theme=dark&font=Baloo%202)
-
-[@caio-andres](https://github.com/caio-andres)
-
-![LeetCode Stats](https://leetcard.jacoblin.cool/caio-andres?theme=dark&font=Baloo%202)
-
-[@enzowxl](https://github.com/enzowxl)
-
-![LeetCode Stats](https://leetcard.jacoblin.cool/enzowxl?theme=dark&font=Baloo%202)
 
 ## Current Progress
 
 
 
-- **Total Problems Solved**: 24
+- **Total Problems Solved**: 0
 - **Last Problem made**: [112. Path Sum](problems/solutions/0112-path-sum/solution.py)
 
 
@@ -183,17 +175,8 @@ To see the full list of available badges and learn how to earn each one, check o
 
 Contributions are welcome! If you'd like to add solutions in another langagues, improve existing ones, or provide explanations, feel free to fork the repository and submit a pull request.
 
-## Contributors
-
-[Pedro Ancelotti](https://github.com/Ancelotti-Dev)
-[Vítor Santos](https://github.com/euvitorti)
 
 ## Contact
-
-For any questions or suggestions, please reach out to us by accessing our discord: [Servidor do Programadores](https://discord.gg/t86nFuCrbj).
-
-Or feel free to connect with us on **LinkedIn**: [Matheus Audibert](https://www.linkedin.com/in/matheusaudibert), [Caio André](https://www.linkedin.com/in/caio-porto-oliveira), [Enzo Almedida](https://www.linkedin.com/in/enzodev/).
-
-_To show support give this repo a ⭐ star! It means a lot, thank you :)_
+  **LinkedIn**: [Sofia Petruk](https://www.linkedin.com/in/sofia-petruk)
 
 ##### Este é o Readme do projeto _em inglês_, caso prefira acompanhar o Readme em Português-BR, [clique aqui](README-PT.md)
